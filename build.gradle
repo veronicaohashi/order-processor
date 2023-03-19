@@ -20,6 +20,8 @@ dependencies {
 	implementation 'org.jetbrains.kotlin:kotlin-reflect'
 	// Web
 	implementation 'org.springframework.boot:spring-boot-starter-web'
+	// Monitoring
+	implementation 'org.springframework.boot:spring-boot-starter-actuator'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 

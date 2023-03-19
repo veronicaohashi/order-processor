@@ -1,0 +1,22 @@
+management:
+  info:
+    env:
+      enabled: true
+  endpoints:
+    health:
+      show-details: always
+    web:
+      base-path: ~
+      exposure:
+        include: health,info
+info:
+  app:
+    name: "Order Processor API"
+    description: "Project to study some concepts using kotlin + spring boot"
+    version: 0.0.1
+    java:
+      version: 17
+
+spring:
+  application:
+    name: credit-experience
